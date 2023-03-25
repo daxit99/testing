@@ -7,29 +7,6 @@ var restartBtn = document.getElementById("restart-btn");
 var result = document.getElementById("result");
 var time = document.getElementById("time");
 
-// const accessKey = 'Yj8x5s6OF65pW5DvucXLPoMaHVm3Ve1QH0ECRk76GZEM';
-// const apiUrl = 'https://api.unsplash.com/photos/random?query=programming&orientation=landscape';
-
-// // get a random photo from the Unsplash API
-// async function getRandomPhoto() {
-//   const response = await fetch(apiUrl, {
-//     headers: {
-//       'Authorization': `Client-ID ${accessKey}`
-//     }
-//   });
-//   const data = await response.json();
-//   return data.urls.full;
-// }
-
-// // set the background image of the body element to a random photo
-// async function setRandomBackground() {
-//   const photoUrl = await getRandomPhoto();
-//   document.body.style.backgroundImage = `url(${photoUrl})`;
-// }
-
-// // call setRandomBackground on page load
-// setRandomBackground();
-
 
 var sentences = [
 "The quick brown fox jumps over the lazy dog.",
